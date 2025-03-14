@@ -21,7 +21,7 @@ class Solution {
 
 main() {
   Solution solution = Solution();
-  print(solution.longestCommonPrefix([]));
-  print(solution.longestCommonPrefix(["flower", "flow", "flight"]));
-  print(solution.longestCommonPrefix(["dog", "racecar", "car"]));
+  // print(solution.longestCommonPrefix([]));
+  // print(solution.longestCommonPrefix(["flower", "flow", "flight"]));
+  // print(solution.longestCommonPrefix(["dog", "racecar", "car"]));
 }
