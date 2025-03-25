@@ -23,3 +23,5 @@ int maxDepth(TreeNode? root) {
 
 // 현재 root : 15 / leftDepth : 0 / rightDepth : 0 / return값 : 1
 // 현재 root : 7 / leftDepth : 0 / rightDepth : 0 / return : 1
+
+// 이해가 잘 안돼서 제출 해놓고 열공해서 다시 푸시하겠습니다.
