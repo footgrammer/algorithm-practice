@@ -1,7 +1,9 @@
 class Solution {
   bool isPalindrome(String s) {
     String result = s.replaceAll(RegExp('[^a-zA-Z]'), "").toLowerCase();
-
+    String test = "hello nice to meet you";
+    List<String> testList = test.split('');
+    print('${testList.reversed} ${testList.reversed.runtimeType}');
     String reverseResult = result.split('').reversed.join();
 
     if (result == reverseResult) {
