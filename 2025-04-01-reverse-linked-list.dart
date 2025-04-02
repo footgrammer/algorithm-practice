@@ -15,6 +15,16 @@ class Solution {
       prev = current; // 이전 노드를 현재 노드로 이동
       current = nextTemp; // 현재 노드를 다음 노드로 이동
     }
+
+    // current : (1,2)
+    // current (1, null)
+    // prev : (1, null)
+    // current : (2, 3)
+
+    // next : (3, 4)
+    // corrent : (2, 1)
+    // prev : (2, 1)
+    // current : (3, 4)
     return prev;
   }
 }
