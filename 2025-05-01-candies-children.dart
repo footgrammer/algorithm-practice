@@ -13,6 +13,8 @@ List<bool> Solution(List<int> candies, int extraCandies) {
     }
   }
 
+  // camdies.map((candy) => candy + extraCandies >= maxCandies).toList()
+
   return possibilityList;
 }
 
